@@ -11,12 +11,12 @@ Log in website first,it will check your cookie
 
 ```jquery
 $.ajax({
-url: 'http://www.wechall.net/challenge/training/programming1/index.php?action=request',
-type: 'get',
-dataType: 'text',
-success:function(data){
-var newUrl="index.php?answer="+data;
-window.location.href=newUrl;
-}
+  url: 'http://www.wechall.net/challenge/training/programming1/index.php?action=request',
+  type: 'get',
+  dataType: 'text',
+  success:function(data){
+    var newUrl="index.php?answer="+data;
+    window.location.href=newUrl;
+  }
 });
 ```
