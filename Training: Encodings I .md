@@ -1,4 +1,4 @@
-#Problem
+# Problem
 We intercepted this message from one challenger to another, maybe you can find out what they were talking about.
 To help you on your progress I coded a small java application, called JPK.
 Note: The message is most likely in english.	
@@ -17,7 +17,7 @@ Note: The message is most likely in english.
 00000110010111000011110011111100
 11110011111010011000011110010111
 0100110010111100100101110
-#Solution
+## Solution
 only with 0 and 1 ,so  it is binary to ascii
 ascii 7 or 8 bit(128,256)
 1.Binary Format
