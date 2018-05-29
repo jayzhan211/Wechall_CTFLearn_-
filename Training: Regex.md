@@ -15,8 +15,8 @@ Solve Regular expression
 `
 /^wechall4?\.(?:jpg|gif|tiff|bmp|png)$/
 `
- 4? 0~1個 \反特殊字元 (這裡反.) (?:x) 找出x  | or
- 4.捕获文件名
+  4? 0~1個 \反特殊字元 (這裡反.) (?:x) 找出x  | or
+4.捕获文件名
  `
  /^(wechall4?)\.(?:jpg|gif|tiff|bmp|png)$/
  `
