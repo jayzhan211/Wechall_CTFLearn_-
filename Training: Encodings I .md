@@ -19,8 +19,13 @@ Note: The message is most likely in english.
 0100110010111100100101110
 ## Solution
 only with 0 and 1 ,so  it is binary to ascii
+
 ascii 7 or 8 bit(128,256)
+
 1.Binary Format
+
 note that 8 cant decode use 7
+
 2.Binary to ASCII
+
 This text is 7-bit encoded ascii. Your password is easystarter.
