@@ -13,15 +13,12 @@ Solve Regular expression
 
 3. 匹配以wechall或wechall4 文件名，并以.jpg/.gif/.tiff/.bmp/.png为后缀的文件名
 `
-
-/^wechall4?\.(?:jpg|gif|tiff|bmp|png)$/
-
+  /^wechall4?\.(?:jpg|gif|tiff|bmp|png)$/
 `
   4? 0~1個 \反特殊字元 (這裡反.) (?:x) 找出x  | or
   
 4. 捕获文件名
- `
- 
+
+ ` 
  /^(wechall4?)\.(?:jpg|gif|tiff|bmp|png)$/
- 
  `
